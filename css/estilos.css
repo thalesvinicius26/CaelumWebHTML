@@ -1,0 +1,10 @@
+p {
+    /* Tamanho da altura de cada linha */
+    line-height: 3px;
+    /* Tamanho do espaço entre cada letra */
+    letter-spacing: 3px;
+    /* Tamanho do espaço entre cada palavra */
+    word-spacing: 5px;
+    /* Tamanho da margem da primeira linha do texto */
+    text-indent: 30px;
+}
