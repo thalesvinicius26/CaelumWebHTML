@@ -1,10 +1,61 @@
-p {
-    /* Tamanho da altura de cada linha */
+/* p {
+    Tamanho da altura de cada linha
     line-height: 3px;
-    /* Tamanho do espaço entre cada letra */
+    Tamanho do espaço entre cada letra
     letter-spacing: 3px;
-    /* Tamanho do espaço entre cada palavra */
+    Tamanho do espaço entre cada palavra
     word-spacing: 5px;
-    /* Tamanho da margem da primeira linha do texto */
+    Tamanho da margem da primeira linha do texto
     text-indent: 30px;
+} */
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+
+/* ============= HEADER */
+
+header {
+    position: relative;
+}
+
+
+/* Sacola */
+
+.sacola {
+    background-image: url('../img/sacola.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/* Menu */
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+/* ============ BODY */
+
+body {
+    color: #333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
